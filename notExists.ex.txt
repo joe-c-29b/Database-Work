@@ -1,0 +1,102 @@
+If you are here, it is because you are also having trouble with the the "NOT EXISTS" counterpart to "EXISTS"
+
+The NOT EXISTS operator is meant to be a TRUE or FALSE question (subquery) that all output from the parent clause must be filtered through.
+
+Any value that leads the nested query to be TRUE will be listed as the output, whereas FALSE will lead to the tuple not being listed.
+If no values are TRUE, the query will output a blank table with your headers.
+Here is a complete query using "NOT EXISTS":
+
+SELECT S.ID, S.name
+FROM Student AS S
+WHERE NOT EXISTS (( SELECT course_id
+				  FROM course
+				  WHERE dept_name = 'Biology') 
+				  EXCEPT( SELECT T.course_id
+						FROM takes AS T
+						WHERE S.ID = T.ID));
+
+Let's break this down into chunks.  We have 3 chunks to deal with:
+
+SELECT S.ID, S.name
+FROM Student AS S
+
+NOT EXISTS
+
+(SELECT course_id
+FROM course
+WHERE dept_name = 'Biology');
+
+
+EXCEPT
+
+( SELECT T.course_id
+FROM takes AS T
+WHERE S.ID = T.ID));
+
+Let's get rid of the operators connecting these three and see what each part wants
+
+SELECT S.ID, S.name
+FROM Student AS S
+
+outputs all student names and IDs
+
+(SELECT course_id
+FROM course
+WHERE dept_name = 'Biology');
+
+will identify all of the course_ids offered by the biology department
+
+( SELECT T.course_id
+FROM takes AS T
+WHERE S.ID = T.ID));
+
+is meant to identify all courses that have been taken by any student
+
+Now let's rebuild this query with the meanings in mind
+(( SELECT course_id
+		FROM course
+		WHERE dept_name = 'Biology') 
+		EXCEPT( SELECT T.course_id
+			FROM takes AS T
+			WHERE S.ID = T.ID));
+If it makes you more comfortable to get rid of correlation names that don't yet apply it can be rewritten as such
+SELECT C.course_id
+FROM course AS C
+WHERE dept_name = 'Biology'
+	EXCEPT 
+	(SELECT T.course_id
+	FROM takes AS T, Student AS S
+	WHERE S.ID = T.ID);
+Regardless of how you right it, the meanings do not change, you have simply added the Student table, which is added in the parent clause, into the query ahead of schedule
+You have the two clause meanings to combine now.
+
+output: all of the course_ids offered by the biology department
+EXCEPT
+output: all courses that have been taken by any student
+combined for a new ouput of any course_id offered by the biology department, EXCEPT those that have been taken by a student (ID).
+
+So if a S.ID matches (has taken) a T.ID tuple for every possible biology course_id, the output for just this part of the query would be "empty"
+
+This becomes your TRUE of FALSE question to filter your first chunk:
+SELECT S.ID, S.name
+FROM Student AS S;
+
+through.
+
+So, going through the whole query at a crawl pace,
+
+SELECT S.ID, S.name
+FROM Student AS S;		output: All student IDs and names
+
+arrow down
+TRUE or FALSE: Does the student.ID match a takes.ID for every possible course_id with a dept_name of 'Biology'?
+
+Two example students, one with true, one with false
+
+
+It is worth noting that depending one your use for such a query, it will often times spit out an "empty" output with just your queried column headers.
+All this means is that every single tuple filtered through you subquery has returned false.
+
+
+
+
