@@ -1,0 +1,75 @@
+Working the global search function
+
+The "Global Search" is a function that is available to ServiceNow users to conduct a broad search within the ACP domain.  It looks like:
+*******************insert picture*******************
+Global Search is a very good options for beginning searches, although it can be limited in capabilities and cannot search more than one criteria at once.
+It has 3 checkboxes to limit the search functions.  None of these checkboxes should ever be unchecked.  If you ever feel like your global search is not functioning properly then the first thing you should verify is that all 3 checkboxes are checked.
+The search field will accept numbers, letters, and symbols; however, the more complex the search the less likely you are to receive any results.
+When conducting a standard search, information from the following tables and columns will be returned in order:
+-Participants
+	-PMB
+	-Status
+	-First Name
+	-Last Name
+	-DOB
+	-Alias Name
+	-Business Name
+	-Mailing Address (type)
+	-Application Assistant
+-Coapplicants
+	-Authorization Code (PMB)
+	-Status
+	-First Name
+	-Last Name
+	-DOB
+	-Alias Name
+	-Business Name
+-Application Assistants
+	-AA number
+	-AA Status
+	-First Name
+	-Last Name
+	-Email Address
+	-Service Provider
+-Name Histories
+	-Display Label
+	-Description
+	-Alias Name
+	-Business Name
+	-First Name
+	-Last Name
+	-Middle Name
+	-Name on Address Labels
+-Address Histories
+	-Display Label
+	-Type
+	-Description
+	-Address
+	-City
+	-State
+	-Zip
+	-County
+-Live Feed (no matches)
+	*ACP ServiceNow procedures do not currently involve use of the live feed
+
+Below is a graphic of the headers you should be presented with:
+***************************insert picture******************************
+The columns displayed for each list cannot be changed; however, you can still enter search criteria that are not shown in the results.  
+Should you be returned a record from one of the tables that does not display any information that you have search, you can open the record by selecting the hyperlinked information in the first column to further inspect.
+You can also select any of the table headers to be brought to that specific table to further narrow your search.
+Common search criteria:
+	-First & Last Name
+	-PMB
+	-Phone Number
+	-DOB
+Improving your Global Search:
+	-Verify that all boxes are checked above the search.
+	-Check your spelling, Global Search has a very limited capability of accepting known abbreviated names ie "Joe" for "Joseph", it is best to try both separately.
+	-Don't search anything longer than a full name.
+	-Avoid using spaces if possible.
+	-Open records that are returned if none of the results appear to match, the middle name might be the match or they may share a last name with their spouse they use interchangeably.
+
+Additional info:
+-The "Name Histories" and "Address Histories" are not usually helpful results, but they are good indicators for troubleshooting missing records.  If a PMB does not seem to exist, but their is a previous address or name for it, that usually means a record has been accidentally deleted.
+-The shorter your search is, the more results you will receive.
+-The longer you search is, the more likely you are to receive no results.

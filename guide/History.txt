@@ -1,0 +1,19 @@
+History
+Where is the "History" tab?
+The "History" tab is located along the top banner of the ServiceNow window, adjacent to the "All" and "Favorites" tabs.
+
+What is "History"?
+A user's history is a linear record of locations that the user has accessed in the database. By selecting the "history" tab, a user can view a list of their previous locations and back track to a specific place if they desire.
+
+The log record is linear because entries are logged based on the sequence that they were opened in.  While it is common practice to keep multiple tabs open on an internet window and it is possible for one user to have multiple open tabs/windows of ServiceNow, an individual cannot be logged as in two places at once.
+This causes the log to order any concurrent windows based on the time they were accessed.  For this reason, the "back" button that is available for most internet browsers is not always helpful.
+If a user needs to back track to a previous record/location in the database, the most efficient way is to do so through the "history" tab
+
+Using the History Tab
+The History Tab functions in much the same way as "Favorites" and the "All Menu" tabs.  It can be both pinned to the side of the window and can be searched from the "filter" located at the top of the tab.
+Each entry on the log will have up to 3 criteria associated:
+-Module used
+-Function/record accessed
+-When the entry entry took place
+To find a spot within the history log, either scroll to the time-frame the entry took place and look for the Module and record you would like to reaccess, or directly search for the Module or record from the search filter at the top of the tab.
+

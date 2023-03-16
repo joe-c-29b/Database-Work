@@ -1,0 +1,57 @@
+KNOWLEDGE BASE
+The Knowledge module serves as a location for ServiceNow users to compile articles, FAQs, and solutions, as well as ask questions within their Instance to other users.
+All users have access to the OSOS Knowledge base, VoteWA Knowledge base, and the Address Confidentiality Program Knowledge base.  It is strongly advised not to utilize the OSOS and VoteWA Knowledge bases. The articles located within are specific to their departments and do not pertain to anything within the ACP Domain of the database.
+Select the ACP Knowledge base block to enter the knowledge base, or check off the subscribe option located within to receive alerts to articles or questions posted within.
+Once inside the knowledge base, your view should look similar to below
+***picture of knowledge base***
+Home button: takes you back out to all the knowledge bases
+Drop down: allows you to select which knowledge base the search box is looking through
+Search: search key words to find associated articles and questions
+Language drop down: select the language you are searching in
+Create an Article: open a blank knowledge record to create and article
+Ask a Question: open a blank knowledge record to ask a question within the current knowledge base
+Categories and Tags: system designated filter options for articles and questions, directly associate to an article or question by the creator during the publishing process
+Filter: filter category and tag options
+All: all knowledge records that match the search/filter criteria
+Articles: just articles that match the search/filter criteria
+Questions: just questions that match the search/filter criteria
+	Asking a question: 
+		o select/guarantee that you are within the ACP knowledge base
+		o select the "ask a question" button in the top right of the window
+		o Place a one sentence version of your uestion in the title box
+		o Add any details, context, or already completed troubleshooting measures within the Question Details box
+		o make sure that "Knowledge Base" reads "Address Confidentiality Program(ACP)"
+		o optional: choose a category and any applicable tags for your question so that others can search for it more easily in the future
+		o "Post a Question"
+		*questions can be commented on, shared, deleted, or edited by the posting user.
+		*non-posting users are only able to comment, share, or answer the question, not edit or delete
+	Actions on a question:
+		o favorite - a question can be favorited by any viewing user so that they can find it easier if they run into a problem repeatedly
+		o comment - users can comment on other's questions if they have non-solution input to add; however, comments must be relevant to the question
+		o submit an answer - users are able to answer any question that they are able to; if their answer is helpful, other users can favorite the response and the OP can mark the question as being answered
+	Publishin an article:
+		o select/guarantee that you are within the ACP knowledge base
+		o select the "Create an Article" button in the top right corner of the window
+		o select an article template; it is recommended that all articles posted within the ACP knowledge base use the "standard" template at the top of the list
+		o Guarantee the following information is autofilled properly by the system:
+			Knowledge base = Address Confidentiality Program (ACP)
+			Ownership Group = OSOS - ACP Knowledge
+			Author = (your name)
+			Article type = HTML
+			Language = English
+		o all of the below data field are optional, but advised:
+			|Category - the general category that your department will identify the information with
+			|Topic - the core subject that your department will identify the article with
+			|Scheduled publish date - the date that the article will be published to be visible to other users within the knowledge base
+			|Attachment link
+			|Display attachments
+			|Image
+			|Disable commenting - checking the box will restrict other users from being able to comment on your article
+		o The Summary field will serve as the title for the article once it is published; it is advised to keep your Summaries to one sentence or less
+		o Article body is where the full text of your article will be placed; it is recommended to keep your formatting as simple as possible to avoid any errors that are caused by the system converting your text to HTML and then back into text form for your article
+		*Search for Duplicates will conduct a simple text query within the knowledge base to see if there are any articles that have similar content to the one you are writing
+		o Once you have filled in all of the information for the article, select the "Submit" button in the top right corner of the window
+ 		o After submitting an article, ServiceNow will automatically navigate you back to your homepage, but your article is still not done
+		o From the All Menu, navigate to "Self-Service > My Knowledge Articles"; this will open up the "Knowledge" table, pre-filtered for articles with you as the creator
+		o Find and select the article that you wish to publish from the list of your articles
+		o If you do not have any further changes for the article, select the "Publish" button along the top of the window

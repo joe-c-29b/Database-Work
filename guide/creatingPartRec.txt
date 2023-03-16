@@ -1,0 +1,140 @@
+CREATING A PARTICIPANT RECORD
+
+Below is a picture of a blank participant record
+
+*****picture
+
+The fields with red asterisks next to them are required in order to create/save a new record.  
+Those fields are:
+	-First Name
+	-Last Name
+	-DOB
+Additionally, there are 7 fields that cannot be filled in by the user because they are system populated.
+Those fields are:
+	-PMB (is automatically created after the record is certified)
+	-Status (Pending, Active, Inactive, Denied)
+	-AA Status (is taken from the AA table)
+	-PRV tab (PRV field on Supplemental Information tab must be manually entered0
+
+After the mandatory fields have been completed, you are able to select the "save" button in the top right of the window.
+	*If you have not completed all of the mandatory fields you will receive a red error banner across the top of the window telling you which fields need to be completed.
+The window will briefly refresh, populating the "Status" field to "Pending", at which point a new section will appear at the bottom of the record and 3 more fields will become mandatory.
+Those fields are:
+	-Residence Address
+	-Abuser Law Enforcement
+	-Classification Type
+Once the those fields have been completed the "Certify" button is able to be selected and the individual for which the record is being created is now an "Active Participant".
+The system will update the "Status" field to "Active" and populate the "PMB" field with the next available PMB number.
+
+Features of a Participant Record
+
+Attributes:
+	PMB
+	Status
+	Name on Address Labels
+	First Name
+	Middle Name
+	Last Name
+	Business Name
+	Alias Name
+	Preferred Language
+	Need for interpreter services
+	Mailing Address
+	Application Assistant
+	AA Status
+	ACP Trust Name
+	Start Date
+	Expiration Date
+	Sex
+	Pronoun
+	DOB
+	Preferred method of communication
+	Is it okay to leave message
+	Phone Number
+	Additional Phone Number
+	Email Address
+	How learned about ACP
+	Classification Type
+	PRV
+	PRM
+	PING
+	Abuser Law Enforcement
+	Personnel ID
+	Other Info
+	Residence Address
+		-Address
+		-C/O
+		-City
+		-Zip
+		-County
+		-State
+	Alternative Address
+	Work Address
+		-Address
+		-C/O
+		-City
+		-Zip
+		-County
+		-State
+	PRV
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

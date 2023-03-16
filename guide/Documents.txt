@@ -1,0 +1,64 @@
+Uploading a document
+ServiceNow has the capability to attach documents within a record.  All types of files are allowed as attachments, unless otherwise specified within the dialog window.  
+Documents can be attached to records on the following tables:
+	-Service Provider
+	-Application Assistant
+	-Interaction
+	-Document
+	-Participant
+	-Coapplicant
+	-Notification
+This can be done in 3 ways:
+	-Manage Attachments
+	-Documents Table
+	-Record Referencing
+
+Manage Attachments
+Every record opened within ServiceNow has a gray banner across the top that contains the "Back" arrow, "Additional Actions" drop down, table name, record name, "Manage Attachments" icon, "Personalize Form" icon, "More options" icon, "Update/Save/Certify/Reinstate" button, "Delete/Inactivate" button, "Previous Record" arrow, and "Next Record" arrow.
+****labelled picture****
+The "Manage Attachments" paperclip icon can be selected to open an "Attachments" window over the record.
+****picture****
+1) select the "Manage Attachments" paperclip.
+2) select the "Choose file" button.
+3) choose the document from the file explorer you would like to attach to the record.
+	-after the file explorer closes, the below window should still be popped out above the record
+	-wait until the file has fully loaded
+****picture****
+4) once the file has completely loaded, select the "x" in the top right corner of the window, or click anywhere outside of the pop out. DO NOT CHECK THE BOX
+	-the file name should now be visible across the top of the record directly under the gray banner and will look like the image below
+****picture****
+	-the file is now attached to this record
+The same steps can be used to change or add an additional file to the record.
+To delete a file as an attachment, open the "Manage Attachments" pop up once more, check the box adjacent to the file you want to delete, and select the red "Delete" button in the bottom right of the pop out.
+
+Documents Table
+The Documents Table can be found in the "All" menu beneath the notifications module.  Within the Documents module are the following options: "Create New", "All", and "Document Types".
+1) select "Create New" to open a new, blank upload form; you can also select "All" and hit the "New" button in the top right.  These options will get you to the same place.
+****picture****
+2) Enter a "Name" for the document and select a "User Type" from the drop down based what type of record you are attaching the document to.
+	-Selecting the "User Type" will populate a new required reference field
+3) Select the magnifying glass next to the newly populated reference field and search for the intended record from the pop out window.
+****picture****
+4) The "Number" will be automatically populated by ServiceNow.  It is not advised to change the value that is populated.
+5) Select a "Document Type" and add a "Description"
+	-these are not required, however they are advised because they will make the document easier to search for within ServiceNow and help provide "at a glance" information to anyone reviewing the record later.
+6) select the "Manage Attachments" paperclip.
+7) select the "Choose file" button.
+8) choose the document from the file explorer you would like to attach to the record.
+	-after the file explorer closes, the below window should still be popped out above the record
+	-wait until the file has fully loaded
+****picture****
+9) once the file has completely loaded, select the "x" in the top right corner of the window, or click anywhere outside of the pop out. DO NOT CHECK THE BOX
+	-the file name should now be visible across the top of the record directly under the gray banner and will look like the image below
+
+Multiple files can be uploaded into a single "Document" record; however, unless they are closely related or a part of a packet process, it is not advised.  
+The maximum file size is roughly 50 megabytes.  The larger the file the longer it will take ServiceNow to upload into the instance.  If you select a new file or click out of the pop out window before an upload has completed, the action will be cancelled and the file will not be attached to the record.
+
+
+Record Referencing
+This method is identical to uploading a file to a "Documents" record, except for the process begins inside the Record that the "Document" is going to be referencing.
+Many ACP records have a "Documents" tab in the bottom section of the record.  
+****picture****
+When this tab is selected a "New" button is available within the pane.  
+The process is now identical to above.
+

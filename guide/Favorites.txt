@@ -1,0 +1,43 @@
+Creating Favorites
+
+What is a Favorite?
+A "Favorite" is a saved location and view within the ACP Domain that can be accessed directly from your "Favorites" tab without requiring additional filters or search criteria.
+An example would be a Favorite named "Yesterday's Enrollments" which is a saved view of the Participants Table that is already filtered for PMBs with a "Start Date" of "yesterday"
+"Favorites" are a good way to speed up your daily work and customize your specific account to best fit your own needs.
+
+Creating a Favorite
+Pre-filtered Tables
+1) Open the table that you would like to create you favorite with.
+2) Create your filter.  If you do not know how to do this see the ***running filters*** section
+3) With the filter banner still open, select the "Save..." button located next to "Run"
+	-text field labeled "Save as:" will populate
+4) Enter the name you want the filter to be assigned and select "Save"
+5) Select "List Controls" icon, hover over "Filters" in the drop down and select the name of the filter you just saved
+	-the page will refresh
+	-guarantee that your filter is still active on the list by checking the breadcrumbs
+6) Select "List Controls" once more and choose "Create Favorite"
+	-a Create favorite window will appear on top of the list
+7) Choose a name, color, and icon and then select "Save"
+	-the new favorite should now be present in your favorites bar
+	-it is a good idea to test your new favorite
+8) The order of your favorites can be changed by selecting the edit icon adjacent to the search filter.
+Record
+1) Open the record you would like to set as a favorite
+2) Select the "Additional Actions" icon on gray banner at the top of the record
+3) Select "Create Favorite"
+4) Choose a name, color, and icon and then select "Save"
+	-the new favorite should now be present in your favorites bar
+	-it is a good idea to test your new favorite
+
+
+Modules
+Favorites can be created directly from the "All" filter
+1) open up the "All" filter in the top left of the ServiceNow window, adjacent to the OSOS logo.
+2) type in the filter or scroll down to the module you would like to make into a favorite
+3) hover over your selection
+	-this should highlight and underline the module
+	-the outline of a star should appear to the right of the module name
+4) select the star outline
+	-the star should change states to being filled
+5) open up your favorites
+	-the new module should now be at the bottom of your favorites list

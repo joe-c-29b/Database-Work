@@ -1,0 +1,66 @@
+All Menu
+On the left of the ServiceNow window top bar are 4 options:
+-The WA OSOS logo
+-All
+-Favorites
+-History
+
+All
+When you select the "All" option a drop down menu will appear with a filter.
+In order to temporarily lock this on your screen, select the "thumbtack" icon to the right of the filter.  This is not required, but is advised if you need to frequently navigate using this menu.
+The All Menu can be unlocked from the screen by reselecting the "thumbtack" to the right of the filter.
+
+At the top of the All menu is a text box with the word "Filter" and a filter icon.  This box can be used to search the entire ServiceNow instance for the following:
+-Tables/Lists
+-Modules
+-Applications
+-Settings
+You do not need to hit "enter" or "search" after typing your query, the menu will filter as you type, slowly narrowing the remaining options.
+If your query doesn't yield any results: try entering only the first few letters/words of what you are looking for and manually search the results that remain to see if any are what you are looking for.
+
+As an ACP ServiceNow user, you will have access to 6 domains:
+-Self-Service
+-ACP
+-Content Taxonomy
+-Diagram Builder
+-Usage Tracking Consent
+-Reports
+
+Content Taxonomy, Diagram Builder, and Usage Tracking Consent
+As an ACP user you should not need anything located within these modules; however, below is a brief description of each
+Content Taxonomy - is a module for system admins to link and configure database objects within the ACP domain.  Most of the contents requires special access permissions, so all that can be found by an ACP user are blank lists.
+Diagram Builder - is for system admins and developers to outline system actions and functions.  There is viewable content within this module; however, none of it can be edited without special access permissions.
+Usage Tracking Consent - contains a single form for a ServiceNow user to enable/disable database user tracking functions.  These functions are enabled by default; as an ACP ServiceNow user, you are required to keep them enabled.  All ACP user tracking statuses can be viewed by system admins and the ACP manager.  Should you accidentally disable this function it can be quickly re-enabled by checking the "Enable Tracking" box and selecting "Save".
+ 
+Self-Service
+The Self-Service module is available for every ServiceNow user, although the applications contained may vary. Due to the specialization of the confidentiality of the ACP's work and the specialization of their ServiceNow Database, not all of the Self-Service applications are useful.  Below are the XX applications that all ACP users should know:
+-Homepage
+-Dashboards
+-Service Catalog
+-Knowledge
+-Visual Task Boards
+-Incidents
+-My Profile
+-My Knowledge Articles
+-My Assets
+-My Notification Preferences
+More information about each of the sections can be found in the "Self-Service" section of the manual.
+
+
+ACP
+The ACP module is only available for ServiceNow users that are assigned to the ACP group.  The contents of this module are all specifically designed, maintained, and housed within the ACP domain of the instance. All ACP users will have access to the below modules:
+-Participants
+-Coapplicants
+-Application Assistants
+-Interactions
+-Notifications
+-Admin
+More information about each sub-module can be found in their respective sections of the manual
+
+The remaining modules availible to all users are:
+-Content Taxonomy
+-Diagram Builder
+-Usage Tracking Consent
+-Knowledge
+-Reports
+Of these, only Knowledge and Reports will be covered in this manual.

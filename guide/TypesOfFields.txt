@@ -1,0 +1,28 @@
+
+Types of fields
+All records are created from the same building blocks of data fields, those types are:
+	-multiple choice field
+	-date field
+	-text field
+	-search field
+	-lock lists
+	-check boxes
+**pictures of each added
+These types of fields can be used alone, or in tandem with others.
+
+Text fields are must have their intended values manually typed in by the user.  It is always important to enter values into text fields in accordance to how they are titled because they may have additional restrictions preventing values of certain length or value from being entered.
+For instance, the "First Name" field on Participant, Coapplicant, and Application Assistant records will not accept values that are over 40 letters long.
+
+Multiple choice fields possess drop down lists of options to select for the field value.  Many have a beginning state of *** picture***. This is a valid selection for optional fields, but NOT for mandatory fields.
+In order to view the list of options, a user can place their cursor anywhere in the field and select it.  The options will populate above or below the field.  If none of the options are applicable, you can select inside the field once more to collapse the list.
+
+Date fields possess a "calendar" feature that a user can select to open up a calendar from which the intended date can be selected.  Some, but not all, date fields can simply have their date typed out in MM/DD/YYYY format.
+For those date field that you are not able to manually enter in, it is advised to select the proper MM/DD values from any year and then to change the year after the field has been initially populated.
+
+Search fields are fields that are linked to another table within the SN database that they can search for the value you are looking for.  Some, but not all, can simply be used as text field.  
+For those that cannot, it is suggested to select the magifying glass to the right of the field for the DB to pop-out a miniature version of the list from which you are searching for a value.
+The miniature pop-out tables only possess limited search and filter capabilities so if a specific search is going to be required, it is advised to use the actual table to find the record that you are looking for and then conducting a simpler search within the search field.
+
+Lock lists are fields that allow one or more values to be entered and the "locked" into the field.  They can be changed by selecting the "lock" icon which opens them back up for editing.
+
+Check boxes are fields that can be selected to populate a "check" symbol.  These fields are generally considered to be booleans with the "check" representing the "true" value and no-check representing "false".

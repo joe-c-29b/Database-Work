@@ -1,0 +1,58 @@
+The ACP module is located underneath the Self-Service module in the AllMenu.
+All ACP ServiceNow users should have access to the below modules:
+	-Participants
+	-Coapplicants
+	-Application Assistants
+	-Interactions
+	-Notifications
+	-Documents
+	-Admin
+All of these modules can be further expanded, so they will each be elaborated on in the next section.
+Participants
+The Participants Module houses the ACP's Participants Table, which is the most recent and accurate listing of current active participants, inactive participants, pending applicants, and denied applications.
+Selecting the Participants module will not bring you to the table, rather, it will open a set of selections for pre-created views and actions:
+	-Create New: this option will navigate the user to a blank participant record that can be filled out for a new application.  The actual process of completing a participant record is located in the "Enrolling a Participant" chapter of the "Actions" section.
+	-All: this option will navigate the user to a complete, unfiltered view of the Participant Table allowing the user to search using their own criteria.  Searching and filtering tables will be covered in the "filters" chapter of the "Actions" section.
+	-Expire This Month: ""
+	-PRV by County: ""
+	-Criminal Justice Participant: ""
+	-Domestic Violence: ""
+	-Sexual Assault: ""
+	-Stalking: ""
+	-Trafficking: ""
+	-Green Tag Label: will create and navigate to a new tab, separate of the user's primary ServiceNow window. Utilizing the Green Tag Label will be covered in the "Green Tag Label" chapter of the "Actions" section 
+	
+Coapplicants: The Coapplicants Module houses the ACP's Coapplicant Table, which is the most recent and accurate listing of current active, inactive, pending, or denied coapplicants.
+Selecting the Coapplicants module will not bring you to the table, rather, it will open a set of selections for pre-created views and actions:
+	-Create New: this option will navigate the user to a blank Coapplicant record that can be filled out for a new application.  The actual process of completing a Coapplicant record is located in the "Enrolling a Coapplicant" chapter of the "Actions" section.
+	-All: this option will navigate the user to a complete, unfiltered view of the Coapplicant Table allowing the user to search using their own criteria.  Searching and filtering tables will be covered in the "filters" chapter of the "Actions" section.
+	-Minor to 18 in 2 weeks: ""
+	-Expire This Month: ""
+	-PRV by County: ""
+	-Criminal Justice Participant: ""
+	-Domestic Violence: ""
+	-Sexual Assault: ""
+	-Stalking: ""
+	-Trafficking: ""
+Application Assistants: The Application Assistants Module houses the ACP's AA Table, which is the most recent and accurate listing of current active, inactive, pending, or denied AAs.
+Selecting the AA module will not bring you to the table, rather, it will open a set of selections for pre-created views and actions:
+	-Create New: this option will navigate the user to a blank Application Assistant record that can be filled out for a new application.  The actual process of completing an Application Assistant record is located in the "Enrolling an Application Assistant" chapter of the "Actions" section.
+	-All: this option will navigate the user to a complete, unfiltered view of the Application Assistant Table allowing the user to search using their own criteria.  Searching and filtering tables will be covered in the "filters" chapter of the "Actions" section.
+	-Expire This Month
+	-Acitve by County
+Interactions:
+	-Create New: this option will navigate the user to a blank Interaction record that can be filled out for a new application.  The actual process of completing an Interation record is located in the "Completing an Interaction" chapter of the "Actions" section.
+	-All:
+	-Assigned to me:
+	-Open:
+	-Closed:
+	-Pending:
+	-Due this Week
+Notifications:
+	-Create a Notification
+	-View Notifications
+Documents:
+	-Create New:
+	-All
+	-Document Types
+Admin: the complete contents of this module is limited to the use of system users with manager, admin, or developer rights

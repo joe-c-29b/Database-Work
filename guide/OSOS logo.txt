@@ -1,0 +1,11 @@
+State Logo
+On the left of the ServiceNow window top bar are 4 options:
+-The WA OSOS logo
+-All
+-Favorites
+-History
+
+The WA OSOS logo
+When you select the WA OSOS logo all the way on the left of the top bar you are brought to whatever page you have designated as your "homepage".
+
+

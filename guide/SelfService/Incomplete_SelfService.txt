@@ -1,0 +1,180 @@
+Self Service
+
+Self-Service
+The Self-Service module is available for every ServiceNow user, although the applications contained may vary. Due to the specialization of the confidentiality of the ACP's work and the specialization of their ServiceNow Database, not all of the Self-Service applications are useful.  Below are the XX applications that all ACP users should know:
+-Homepage
+-Dashboards
+-Service Catalog
+-Knowledge
+-Visual Task Boards
+-Incidents
+-My Profile
+-My Knowledge Articles
+-My Assets
+-My Notification Preferences
+More information about each of the sections can be found in the "Self-Service" section of the manual.
+
+
+THE Homepage
+The homepage is a 100% user customized module.  A new user will have an almost blank homepage, with the exception of the light gray bar running across the top of the area.
+Below are options present on the light gray bar:
+-Dashboard menu
+-Dashboards overview
+-Current Dashboard Name
+-Change dashboard
+-Add widgets
+-Sharing
+-Configuration
+
+Selecting the "Dashboard Menu" will open a drop down list of options.  Below are the options with their respective functions:
+-New Dashboard; begin a new customized dashboard, starting from scratch
+-Dashboard Properties; view/edit the Name, Order, Status, Owner, roles required, sources, and tabs of the current dashboard
+-Delete Dashboard; delete the current dashboard
+-Duplicate Dashboard; duplicate the current dashboard
+-Copy Dashboard URL; copy the URL of the current dashboard to your clipboard
+-Create Favorite; create a favorite that can be added to a user's "Favorites" menu
+-Create Tab; create an additional tab for the current dashboard
+-Refresh; refresh the widgets on the current dashboard
+-Reset Filters; reset all filters that are currently applied to the widgets on the current dashboard
+
+Selecting the "Dashboards Overview" will bring you the the "Dashboards" page where a user can sort/ filter the dashboards that they have access to based on: owner, group, and name.
+This page also has a "Create Dashboard" button in the top right corner.  This will open up a blank "Dashboard Properties" record that, once saved will create a new blank dashboard for a user to customize.
+
+The "Current Dashboard Name" is not an option, rather the title of the current dashboard a user is currently located on. It is important to name each dashboard you create so that they can be easily distinguished between based on the name rather than the contents.
+***insert picture of two similar dashboards***
+
+Selecting the "Change Dashboard" option will open a drown down filter and list of all dashboards available to a user to select from.
+IMPORTANT NOTICE: a user's homepage will always navigate to the most recent dashboard selected for view.
+
+Selecting the "Add Widgets" option will open a side bar with multiple options and filters for adding widgets to the current dashboard.  For more information on adding widgets, see the "Widgets" section of the manual.
+
+Selecting the "Sharing" option will open a side bar with options to invite other users to view the dashboard based on group, role, or just individual user.
+
+Selecting the "Configuration" option will open a side bar with options for creating a new tab, choosing the color of the dashboard background, and applying quick layout options to the current dashboard.
+
+CREATING YOUR PRIMARY HOMEPAGE DASHBOARD
+	1)Add the Global Search function to your homepage
+		-select the (+) to "Add Widgets"
+		-find the "Content Blocks" in the "Widget Category" drop down
+		-enter "global" in the search box and select the "Search Results(Global)" 
+		-select "Add" and then position the widget in the desired place on the page using the size and position options on the widget
+	2)add a report
+		-select the (+) to "Add Widgets"
+		-find the "Reports" in the "Widget Category" drop down
+		-there are three ways to add a report to your page:
+			i select recently updated reports from the list of reports given by ServiceNow below the search function
+			ii select the "#New Report" option to create the specific report you would like on the spot
+			iii select the **filter** to modify filter criteria SN is currently using to populate your report choices.
+		-select "Add" and then position the widget in the desired place on the page using the size and position options on the widget
+	3)add a favorite/filter
+		-select the (+) to "Add Widgets"
+		-find the "Filters" in the "Widget Category" drop down
+		-find and select "ACP" option at the top of the list
+		-select the pre-saved filter for the intended table
+		-select "Add" and then position the widget in the desired place on the page using the size and position options on the widget
+	4)Add the ACP module menu
+		-select the (+) to "Add Widgets"
+		-find the "System Applications" in the "Widget Category" drop down
+		-find and select the table that you would like to choose a previously created filter 
+
+SERVICE CATALOG
+The service catalog is where Secretary of State deplartments submit their IT requests.  The ACP currently only permits the manager (or acting manager) to submit IT requests.
+It is strongly advised to not utilize this module unless you are standing in as the acting manager.
+
+EMPLOYEE CENTER
+The employee center works as a summary and log function for the Service Catalog with regard to the individual user.
+It is again, strongly advised to not utilize this module.  It will navigate you to a new tab where your can view your individual user requests.  For most users this entire page will be absent of content.
+
+KNOWLEDGE BASE
+The Knowledge module serves as a location for ServiceNow users to compile articles, FAQs, and solutions, as well as ask questions within their Instance to other users.
+All users have access to the OSOS Knowledge base, VoteWA Knowledge base, and the Address Confidentiality Program Knowledge base.  It is strongly advised not to utilize the OSOS and VoteWA Knowledge bases. The articles located within are specific to their departments and do not pertain to anything within the ACP Domain of the database.
+Select the ACP Knowledge base block to enter the knowledge base, or check off the subscribe option located within to receive alerts to articles or questions posted within.
+Once inside the knowledge base, your view should look similar to below
+***picture of knowledge base***
+Home button: takes you back out to all the knowledge bases
+Drop down: allows you to select which knowledge base the search box is looking through
+Search: search key words to find associated articles and questions
+Language drop down: select the language you are searching in
+Create an Article: open a blank knowledge record to create and article
+Ask a Question: open a blank knowledge record to ask a question within the current knowledge base
+Categories and Tags: system designated filter options for articles and questions, directly associate to an article or question by the creator during the publishing process
+Filter: filter category and tag options
+All: all knowledge records that match the search/filter criteria
+Articles: just articles that match the search/filter criteria
+Questions: just questions that match the search/filter criteria
+	Asking a question: 
+		o select/guarantee that you are within the ACP knowledge base
+		o select the "ask a question" button in the top right of the window
+		o Place a one sentence version of your uestion in the title box
+		o Add any details, context, or already completed troubleshooting measures within the Question Details box
+		o make sure that "Knowledge Base" reads "Address Confidentiality Program(ACP)"
+		o optional: choose a category and any applicable tags for your question so that others can search for it more easily in the future
+		o "Post a Question"
+		*questions can be commented on, shared, deleted, or edited by the posting user.
+		*non-posting users are only able to comment, share, or answer the question, not edit or delete
+	Actions on a question:
+		o favorite - a question can be favorited by any viewing user so that they can find it easier if they run into a problem repeatedly
+		o comment - users can comment on other's questions if they have non-solution input to add; however, comments must be relevant to the question
+		o submit an answer - users are able to answer any question that they are able to; if their answer is helpful, other users can favorite the response and the OP can mark the question as being answered
+	Publishin an article:
+		o select/guarantee that you are within the ACP knowledge base
+		o select the "Create an Article" button in the top right corner of the window
+		o select an article template; it is recommended that all articles posted within the ACP knowledge base use the "standard" template at the top of the list
+		o Guarantee the following information is autofilled properly by the system:
+			Knowledge base = Address Confidentiality Program (ACP)
+			Ownership Group = OSOS - ACP Knowledge
+			Author = (your name)
+			Article type = HTML
+			Language = English
+		o all of the below data field are optional, but advised:
+			|Category - the general category that your department will identify the information with
+			|Topic - the core subject that your department will identify the article with
+			|Scheduled publish date - the date that the article will be published to be visible to other users within the knowledge base
+			|Attachment link
+			|Display attachments
+			|Image
+			|Disable commenting - checking the box will restrict other users from being able to comment on your article
+		o The Summary field will serve as the title for the article once it is published; it is advised to keep your Summaries to one sentence or less
+		o Article body is where the full text of your article will be placed; it is recommended to keep your formatting as simple as possible to avoid any errors that are caused by the system converting your text to HTML and then back into text form for your article
+		*Search for Duplicates will conduct a simple text query within the knowledge base to see if there are any articles that have similar content to the one you are writing
+		o Once you have filled in all of the information for the article, select the "Submit" button in the top right corner of the window
+ 		o After submitting an article, ServiceNow will automatically navigate you back to your homepage, but your article is still not done
+		o From the All Menu, navigate to "Self-Service > My Knowledge Articles"; this will open up the "Knowledge" table, pre-filtered for articles with you as the creator
+		o Find and select the article that you wish to publish from the list of your articles
+		o If you do not have any further changes for the article, select the "Publish" button along the top of the window
+	
+
+VIRTUAL TASK BOARDS	
+VTBs can be used to:
+	-track record status'
+	-organize tasks
+	-keep task notes
+	-collaborate with other users
+A virtual task baord is a location within the database that can be linked to tables and the recorders therein or left as its own entity for users to input 100% of the information and tasks.
+Below is a picture of the "My Task Boards" page
+	"New" allows you to create a new VTB
+	"All Boards" displays all of the VTBs that you have access to view
+	"Boards you own" displays VTBs that you created and are the "owner" of
+	"Boards you belong to" displays VTBs that were shared with you by other users
+Creating a VTB:
+	1) select "new"
+	2) select "Freeform Board" (the ACP does not currently utilize Data Driven Boards)
+Using a VTB:
+	Naming your VTB: click on the text that says "A New Board created..." in the top left of the window; delete the text and replace it with the title you desire
+	Lanes: contain cards; they can represent the classification metric you would like to apply to your cards.
+	Cards: the data of the VTB; a card is like a mini record, it can be edited, moved, or deleted
+	Cards and Lanes can be edited and moved after being created; however, depending on the dashboard, it may require the owner of the VTB
+
+
+MY PROFILE
+My profile contains all of your user information.  Most of the information contained in a user profile cannot be changed by the user, but is still important to know the location of.
+User Profile infromation:
+	-Name
+	-Business phone
+	-Mobile phone
+	-Job Title
+	-Email
+	-Photo
+MY ASSETS
+The My Assets module contains the information for your office computer, work phone, or any other piece of electronics that the office has directly assigned to you.
+
